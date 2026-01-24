@@ -1,124 +1,61 @@
-# Developer Portfolio
+# Hi, I'm Aryan Kulkarni 👋
 
-A modern, minimal, and professional developer portfolio website built with Next.js, TypeScript, and Tailwind CSS.
+**Software Engineering Student | Full-Stack Developer | Problem Solver**
 
-## Features
+📍 Mumbai, Maharashtra  
+📧 aryankulkarni1104@gmail.com
 
-- ✨ Modern and minimal design
-- 🌓 Dark mode support with next-themes
-- 📱 Fully responsive (mobile-first)
-- 🎨 Smooth animations and transitions
-- 📧 Contact form with Resend email integration
-- 🎯 SEO optimized
-- ♿ Accessible design
+---
 
-## Tech Stack
+## 🚀 About Me
 
-- **Framework:** Next.js 15 (App Router)
-- **Language:** TypeScript
-- **Styling:** Tailwind CSS
-- **Theme:** next-themes
-- **Email:** Resend
-- **Deployment:** Vercel (recommended)
+I'm a passionate software engineering student with a strong foundation in full-stack development. I love building elegant solutions to complex problems and creating web applications that make a real impact. My journey in tech is driven by curiosity, continuous learning, and a desire to push the boundaries of what's possible with code.
 
-## Getting Started
+## 💻 Tech Stack
 
-### Prerequisites
+**Languages**  
+JavaScript • TypeScript • Python • Java • SQL
 
-- Node.js 18+ and npm
+**Frontend**  
+React • Next.js • Tailwind CSS • HTML/CSS
 
-### Installation
+**Backend**  
+Node.js • Express
 
-1. Clone the repository or navigate to the project directory
+**Tools & Technologies**  
+Git • Docker • VS Code • Figma • Postman
 
-2. Install dependencies:
-```bash
-npm install
-```
+**Databases**  
+PostgreSQL • MongoDB • Redis • MySQL
 
-3. Set up environment variables:
-```bash
-cp .env.local.example .env.local
-```
+**AI/ML**  
+OpenAI API • TensorFlow • Scikit-learn • Pandas
 
-4. Add your Resend API key to `.env.local`:
-```
-RESEND_API_KEY=your_resend_api_key_here
-```
+## 🎯 What I'm Working On
 
-Get your API key from [Resend](https://resend.com/api-keys)
+- 🔭 Building modern web applications with Next.js and TypeScript
+- 🌱 Exploring AI/ML integration in web development
+- 💡 Contributing to open-source projects
+- 📚 Continuously learning and staying updated with the latest tech trends
 
-5. Update the contact form email addresses in `src/app/actions/sendEmail.ts`:
-   - Change `to` field to your email address
-   - Change `from` field to your verified domain email (or use `onboarding@resend.dev` for testing)
+## 🌟 Interests
 
-### Customization
+- Full-Stack Development
+- UI/UX Design
+- Artificial Intelligence & Machine Learning
+- Cloud Computing
+- Open Source Contribution
 
-1. **Personal Information:** Edit `src/data/data.ts` to update:
-   - Your name, role, and tagline
-   - Email and social media links
-   - Projects, experience, and skills
-   - About section content
+## 📫 Let's Connect
 
-2. **Profile Image:** Add your profile image to `public/profile.jpg`
+[![GitHub](https://img.shields.io/badge/GitHub-AryanKulkarni11042005-181717?style=for-the-badge&logo=github)](https://github.com/AryanKulkarni11042005)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Aryan_Kulkarni-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/aryan-kulkarni-a24a182b9/)
+[![Email](https://img.shields.io/badge/Email-aryankulkarni1104@gmail.com-EA4335?style=for-the-badge&logo=gmail)](mailto:aryankulkarni1104@gmail.com)
 
-3. **Resume:** Add your resume PDF to `public/resume.pdf`
+---
 
-4. **Colors & Styling:** Customize colors in `tailwind.config.ts`
+💼 **Open to collaborations and opportunities!**  
+Feel free to reach out if you want to work together on exciting projects or just have a chat about tech.
 
-### Development
+⭐ **Check out my portfolio website:** [View Live](https://aryan-kulkarni-portfolio.vercel.app) *(coming soon)*
 
-Run the development server:
-
-```bash
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-### Build
-
-Build for production:
-
-```bash
-npm run build
-```
-
-### Deployment
-
-The easiest way to deploy is using [Vercel](https://vercel.com):
-
-1. Push your code to GitHub
-2. Import your repository on Vercel
-3. Add your `RESEND_API_KEY` environment variable
-4. Deploy!
-
-## Project Structure
-
-```
-├── src/
-│   ├── app/
-│   │   ├── actions/          # Server Actions
-│   │   ├── layout.tsx        # Root layout
-│   │   ├── page.tsx          # Home page
-│   │   └── globals.css       # Global styles
-│   ├── components/
-│   │   ├── sections/         # Page sections
-│   │   ├── ui/               # Reusable UI components
-│   │   ├── Header.tsx
-│   │   ├── Footer.tsx
-│   │   └── ThemeToggle.tsx
-│   └── data/
-│       └── data.ts           # Portfolio content
-├── public/                   # Static assets
-├── tailwind.config.ts        # Tailwind configuration
-└── tsconfig.json            # TypeScript configuration
-```
-
-## License
-
-MIT License - feel free to use this template for your own portfolio!
-
-## Support
-
-For issues or questions, please open an issue on GitHub.
