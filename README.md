@@ -1,6 +1,6 @@
 # Hi, I'm Aryan Kulkarni 👋
 
-**Software Engineering Student | Full-Stack Developer | Problem Solver**
+**Software Engineering Student | Full-Stack Developer | Problem Solver | Machine Learning Enthusiast**
 
 📍 Mumbai, Maharashtra  
 📧 aryankulkarni1104@gmail.com
